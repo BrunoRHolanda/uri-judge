@@ -1,4 +1,4 @@
-package com.gibhub.brunorholanda.uri.judge.iniciante.n1002.areadocirculo;
+package com.gibhub.brunorholanda.uri.judge.iniciante.bee1002.areadocirculo;
 
 import java.io.BufferedReader;
 import java.io.IOException;

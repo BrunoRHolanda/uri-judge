@@ -1,4 +1,4 @@
-package com.gibhub.brunorholanda.uri.judge.iniciante.n1003.somasimples;
+package com.gibhub.brunorholanda.uri.judge.iniciante.bee1006.media2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,15 +12,16 @@ public class Main {
 
         String a = reader.readLine();
         String b = reader.readLine();
+        String c = reader.readLine();
 
-        int result = Result.soma(Integer.parseInt(a), Integer.parseInt(b));
+        double result = Result.media(Double.parseDouble(a), Double.parseDouble(b), Double.parseDouble(c));
 
-        System.out.printf("SOMA = %d\n", result);
+        System.out.printf("MEDIA = %s\n", String.format("%.1f", result));
     }
 }
 
 class Result {
-    public static int soma(int a, int b) {
-        return a + b;
+    public static double media(double a, double b, double c) {
+        return ((a*2) + (b*3) + (c*5)) / 10;
     }
 }

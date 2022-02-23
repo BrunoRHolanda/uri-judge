@@ -1,4 +1,4 @@
-package com.gibhub.brunorholanda.uri.judge.iniciante.n1001.extremamentebasico;
+package com.gibhub.brunorholanda.uri.judge.iniciante.bee1004.produtosimples;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,17 +10,18 @@ public class Main {
                 new InputStreamReader(System.in)
         );
 
-        String a  = reader.readLine();
+        String a = reader.readLine();
         String b = reader.readLine();
 
-        int result = Result.sum(Integer.parseInt(a), Integer.parseInt(b));
+        int result = Result.produto(Integer.parseInt(a), Integer.parseInt(b));
 
-        System.out.printf("X = %d\n", result);
+        System.out.printf("PROD = %d\n", result);
     }
 }
 
 class Result {
-    public static int sum(int a, int b) {
-        return a + b;
+
+    public static int produto(int a, int b) {
+        return a * b;
     }
 }

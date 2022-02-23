@@ -1,4 +1,4 @@
-package com.gibhub.brunorholanda.uri.judge.iniciante.n1004.produtosimples;
+package com.gibhub.brunorholanda.uri.judge.iniciante.bee1003.somasimples;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,15 +13,14 @@ public class Main {
         String a = reader.readLine();
         String b = reader.readLine();
 
-        int result = Result.produto(Integer.parseInt(a), Integer.parseInt(b));
+        int result = Result.soma(Integer.parseInt(a), Integer.parseInt(b));
 
-        System.out.printf("PROD = %d\n", result);
+        System.out.printf("SOMA = %d\n", result);
     }
 }
 
 class Result {
-
-    public static int produto(int a, int b) {
-        return a * b;
+    public static int soma(int a, int b) {
+        return a + b;
     }
 }

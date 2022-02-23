@@ -1,4 +1,4 @@
-package com.gibhub.brunorholanda.uri.judge.iniciante.n1000.helloworld;
+package com.gibhub.brunorholanda.uri.judge.iniciante.bee1000.helloworld;
 
 import java.io.IOException;
 

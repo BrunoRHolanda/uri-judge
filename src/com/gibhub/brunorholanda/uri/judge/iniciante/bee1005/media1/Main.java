@@ -1,4 +1,4 @@
-package com.gibhub.brunorholanda.uri.judge.iniciante.n1006.media2;
+package com.gibhub.brunorholanda.uri.judge.iniciante.bee1005.media1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,16 +12,16 @@ public class Main {
 
         String a = reader.readLine();
         String b = reader.readLine();
-        String c = reader.readLine();
 
-        double result = Result.media(Double.parseDouble(a), Double.parseDouble(b), Double.parseDouble(c));
+        double result = Result.media(Double.parseDouble(a), Double.parseDouble(b));
 
-        System.out.printf("MEDIA = %s\n", String.format("%.1f", result));
+        System.out.printf("MEDIA = %s\n", String.format("%.5f", result));
     }
 }
 
 class Result {
-    public static double media(double a, double b, double c) {
-        return ((a*2) + (b*3) + (c*5)) / 10;
+
+    public static double media(double a, double b) {
+        return ((a*3.5) + (b*7.5)) / 11;
     }
 }
