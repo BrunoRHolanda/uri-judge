@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bee1006" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.gibhub.brunorholanda.uri.judge.iniciante.bee1006.media2.Main" />
+    <module name="uri-judge" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
